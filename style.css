@@ -1,0 +1,111 @@
+body {
+    background: rgba(0, 0, 255, 0.486);
+    font: normal 15pt Arial;
+    
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px; /* arrendondamento da borda */
+    padding: 15px; /* define espessura da area de preenchimento */ 
+    width: 500px; /* largura fixa da section*/
+    margin: auto; /* centraliza a section */
+    box-shadow: 3px 3px 10px black;
+}
+
+div#gend {
+    background: rgba(0, 128, 0, 0.596);
+    border-radius: 10px; 
+    padding: 15px; 
+    width: 300px; 
+    margin: auto; 
+    box-shadow: 3px 3px 10px black;
+}
+
+div#weidiv {
+    background: rgba(0, 128, 0, 0.596);
+    border-radius: 10px; 
+    padding: 15px; 
+    width: 300px; 
+    margin-top: 20px;
+    margin-left: 85px;
+    box-shadow: 3px 3px 10px black;
+}
+
+div#heig {
+    background: rgba(0, 128, 0, 0.596);
+    border-radius: 10px; 
+    padding: 15px; 
+    width: 300px; 
+    margin-top: 20px;
+    margin-left: 85px;
+    box-shadow: 3px 3px 10px black;
+}
+
+div#res {
+    margin-top: 50px;
+    text-align: center;
+    background: rgba(161, 164, 190, 0.596);
+    border-radius: 10px; 
+    padding: 5px; 
+    width: 300px; 
+    margin-top: 20px;
+    margin-left: 85px;
+    box-shadow: 3px 3px 10px black;
+}
+
+div#res2 {
+    margin-top: 50px;
+    text-align: center;
+    background: rgba(161, 164, 190, 0.596);
+    border-radius: 10px; 
+    padding: 5px; 
+    width: 300px; 
+    margin-top: 20px;
+    margin-left: 85px;
+    box-shadow: 3px 3px 10px black;
+}
+
+input#showme {
+    background: blue;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    color: white;
+    margin-left: 85px;
+}
+
+input#weitxt {   
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #ffffff; 
+    border:1px solid #000000;
+    width:150px
+}
+
+input#heighttxt {   
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #ffffff; 
+    border:1px solid #000000;
+    width:150px
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

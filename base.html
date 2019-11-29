@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Best Weight</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Find your Best Weight</h1>
+    </header>
+    
+    <section>
+        <div> 
+            <div id="gend">
+            <p>
+            Gender: <input type="radio" name="sexradio" id="male" checked>
+                  <label for="male">Male</label>  
+                  <input type="radio" name="sexradio" id="female">
+                  <label for="female">Female</label> 
+            </p> 
+        </div>
+        <div id="weidiv">
+            <p>
+            Weight: <input type="number" name="weitxt" id="weitxt">
+                 <label for="male">Insert your weight</label>    
+            </p>
+        </div>
+        <div id="heig">
+            <p>
+            Height: <input type="number" name="heighttxt" id="heighttxt">
+                    <label for="male">Insert your height</label> 
+            </p>
+            
+        </div>  
+        <p> <input type="button" value="Show Me" id="showme" onclick="caculate()"> </p>
+        </div>
+
+        <div id="res">
+            
+            <p>The Body Mass Index show here!</p>
+            
+        </div>
+        <div id="res2">
+
+            <p>You will find your best weight!</p>
+            
+        </div>
+    </section>
+
+    <footer>
+        <p>&COPY; Detoni, 2019</p>
+    </footer>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
